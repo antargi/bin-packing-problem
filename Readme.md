@@ -1,3 +1,7 @@
+Repositorio para el bin packing problem
+
+## Procedimiento estimado:
+
 Función read_bin_packing_instance:
 
 Lee el archivo de instancia.
