@@ -29,3 +29,22 @@ Función process_and_solve:
 
 Lee y procesa las instancias de bin packing desde un archivo.
 Para cada problema, llama a bin_packing_glpk y muestra el resultado junto con la mejor solución conocida.
+
+
+## Instancias conocidas:
+
+Identificador del Problema: uniform1, uniform2, etc.
+Capacidad del Contenedor: Valor fijo para cada instancia.
+Número de Ítems (n): Varía entre 6 y 12.
+Número de Contenedores en la Mejor Solución Conocida: Varía entre 2 y 5.
+Tamaños de los Ítems: Listados individualmente, distribuidos uniformemente dentro del intervalo (20, 100).
+
+Identificador del Problema: Cada problema se identifica con un nombre único, como triplet1, triplet2, etc.
+Capacidad del Contenedor: Todos los contenedores tienen una capacidad fija, que varía entre 80.0 y 100.0 unidades.
+
+Número de Ítems (n): El número de ítems en cada problema varía de 6 a 9.
+Número de Contenedores en la Mejor Solución Conocida: Varía entre 2 y 3 contenedores, dependiendo del problema.
+
+Tamaños de los Ítems:
+Los ítems tienen tamaños que oscilan entre 10.0 y 35.0 unidades.
+Los ítems están distribuidos en intervalos específicos para simular condiciones de empaquetado realistas y desafiantes.
