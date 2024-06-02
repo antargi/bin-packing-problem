@@ -48,3 +48,10 @@ Número de Contenedores en la Mejor Solución Conocida: Varía entre 2 y 3 conte
 Tamaños de los Ítems:
 Los ítems tienen tamaños que oscilan entre 10.0 y 35.0 unidades.
 Los ítems están distribuidos en intervalos específicos para simular condiciones de empaquetado realistas y desafiantes.
+
+El proyecto considera cuatro archivos:
+
+invg_1.ipynb           -> primer acercamiento al problema, se prueban arreglos muy pequeños.
+invg_1_1.ipynb         -> primer acercamiento al problema, se prueban instancias creadas con glpk y cbc.
+invg_1_2.ipynb         -> se copian las funciones anteriores  y se intenta resolver instancias conocidas.
+instance_creator.ipynb -> permite generar instancias creadas a partir de las conocidas. (Se requiere python)
